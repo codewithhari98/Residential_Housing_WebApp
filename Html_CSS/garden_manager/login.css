@@ -1,0 +1,81 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS for Register Page and Media queires for responsiveness */
+/*Used Colors-green,white,blue*/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.containers {
+  left:10vw;
+  height: 35vh;
+  width:60vw;
+  top:4vh;
+  position:relative;
+  background-color: white;
+  font-size: 1.2vh;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 1vw 0 2vh 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #1b3a22;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.main{
+  left:10vw;
+  top:10vh;
+  height: 35vw;
+  position:absolute;
+}

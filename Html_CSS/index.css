@@ -1,0 +1,43 @@
+
+/*Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+
+/*Used Colors-black,green*/
+
+body {
+    font-family: "Lato", sans-serif;
+      }
+        
+      .grid-container {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(auto-fit,minmax(100px,90fr));
+        padding: 4vh 12px 10px 1vw;
+        width: 80vw;
+      }
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      font-size: 1.0vw;
+
+      
+    }
+    .mains1{
+left:10vw;
+top:15vh;
+height: 35vw;
+position:absolute;
+}
+@media screen and (max-width: 980px) {
+.mains1{
+left:10vw;
+top:15vh;
+height: 2vw;
+position:absolute;}
+
+}

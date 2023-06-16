@@ -1,0 +1,50 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS FOR CHAT IN RESIDENT PAGE */
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+ 
+}
+
+/* textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  background: #f1f1f1;
+  min-height: 200px;
+}
+
+/*style for the send button */
+ .btn {
+  background-color: #1b3a22;
+  padding: 16px 20px;
+  color: white;
+  margin-bottom:10px;
+}
+
+/* background color to the cancel button */
+.form-container .cancel {
+  background-color: #db4f4f;;
+}
+.chat{
+left:16vw;
+top:5vw;
+height: 35vw;
+position:absolute;
+}
+@media screen and (max-width: 980px) {
+.chat{
+left:20vw;
+top:12vw;
+height: 10vw;
+position:absolute;}
+
+}

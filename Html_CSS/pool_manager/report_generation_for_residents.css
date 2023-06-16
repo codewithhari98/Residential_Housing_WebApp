@@ -1,0 +1,65 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* REPORT GENERATION FOR RESIDENTS CSS and Media queires for responsiveness */
+
+#hide_display{
+    display:none;
+    top:30vh;
+    position:relative;
+  }
+              
+  .grid-container{
+    display:grid;
+    gap:30px;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding:0px 0px 0px 20vw;
+  
+  }
+  @media screen and (max-width: 980px) {
+    .grid-container{  
+    display:grid;
+    gap:30px;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding:10px 0px 0px 10vw;
+  }
+  
+    
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.5vw;
+    
+  } 
+  @media screen and (max-width: 980px) {
+    .grid-container > div{  
+      background-color: rgba(255, 255, 255, 0.8);
+      margin-top: 50px;
+      margin-left: 53px;
+    text-align: center;
+    font-size: 1.9vw;
+    
+  }
+  }
+  
+  .report{
+      left:16vw;
+      top:5vw;
+      height: 35vw;
+      position:absolute;
+    }
+    @media screen and (max-width: 980px) {
+      .report{
+        left:22vw;
+        font-size: 18px;
+        top:20vw;
+        height: 10vw;
+        position:absolute;}
+      
+    }
+  

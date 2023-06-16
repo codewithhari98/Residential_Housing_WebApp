@@ -1,0 +1,74 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* UPDATE MANAGER CSS and Media queires for responsiveness */
+    .product_form {
+        display: flex;
+        position: relative;
+        overflow: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 85%;
+        margin-inline: auto;
+        float:right;
+        margin-top: 5vh;
+        font-size:1.5vw;
+      }
+      .product_form #input{
+        font-size:1.5vw;
+      }
+      .form_input {
+        margin: 1.2vh 0 !important;
+        width: 98% !important;
+      }
+      
+      @media screen and (max-width:450px) {
+      
+        .form_input {
+          width: 100% !important;
+          margin: 0.8vh 0 !important;
+        }
+        .form_input {
+          width: 98% !important;
+        }
+      
+        .dropdown { 
+          position: relative; 
+          display: inline-block; 
+        } 
+         
+        .dropbtn { 
+          background-color: #4CAF50; 
+          color: white; 
+          padding: 16px; 
+          font-size: 16px; 
+          border: none; 
+          cursor: pointer; 
+        } 
+         
+        .dropdown-content { 
+          display: none; 
+          position: absolute; 
+          background-color: #f9f9f9; 
+          min-width: 70vw; 
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+          z-index: 1; 
+        } 
+         
+        .dropdown-content a { 
+          color: black; 
+          padding: 8px 16px; 
+          text-decoration: none; 
+          display: block; 
+          font-size:1.5vw;
+        } 
+         
+        .dropdown:hover .dropdown-content { 
+          display: block; 
+        } 
+      }
+  

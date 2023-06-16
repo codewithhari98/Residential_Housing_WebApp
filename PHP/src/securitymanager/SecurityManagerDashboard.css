@@ -1,0 +1,42 @@
+ /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ 
+
+
+/* CSS FOR SECURITY MANAGER DASHBOARD */
+/* Used Colors- white */
+body {
+    font-family: "Lato", sans-serif;
+      }
+        
+      .building-grid-container{
+        display:grid;
+        gap:30px;
+        grid-template-columns: repeat(auto-fit,minmax(150px,2fr));
+        padding:15vh 0px 0px 0px;
+        width:80vw;
+    }
+    
+    /*Used backgroud color : rgba(255, 255, 255, 0.8);*/
+    .building-grid-container > div{
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        font-size: 1.5vw;
+        
+    }
+    
+      @media screen and (max-width: 980px) {
+        .building-grid-container{  
+          display:grid;
+          gap:10px;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
+        .building-grid-container > div{
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            font-size: 1vh;        
+        }
+      }

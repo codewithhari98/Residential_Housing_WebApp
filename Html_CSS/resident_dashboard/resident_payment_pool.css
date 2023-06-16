@@ -1,0 +1,26 @@
+/* <!-- /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ 
+body {
+    font-family: "Lato", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .main{
+left:196px;
+top:5vw;
+height: 35vw;
+position:absolute;
+}
+@media screen and (max-width: 980px) {
+.main{
+  left:26vw;
+  top:15vw;
+  height: 10vw;
+  position:absolute;}
+
+}

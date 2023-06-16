@@ -1,0 +1,63 @@
+ /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ 
+
+/* Read_watchman CSS and Media queires for responsiveness */
+/*Used-colors-white*/
+
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  #myTable {
+    border-collapse: collapse;
+    max-height: 40vh;
+    width: 70vw;
+    border: 1px solid #ddd;
+    font-size: 1vw;
+    white-space: wrap;
+  }
+  @media screen and (max-width: 980px) {
+#myTable{
+  border-collapse: collapse;
+    max-height: 30vh;
+    width: 70vw;
+    border: 1px solid #ddd;
+    font-size: 1.4vw;
+    white-space: wrap;}
+
+}
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 0.5vw;
+
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  .read{
+left:16vw;
+top:5vw;
+height: 35vw;
+position:absolute;
+}
+@media screen and (max-width: 980px) {
+.read{
+  left:22vw;
+  top:15vw;
+  height: 10vw;
+  font: 5px;
+  position:absolute;}
+
+}

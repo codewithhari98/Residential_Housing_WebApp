@@ -1,0 +1,117 @@
+<!-- /* Team-5 Members
+    Goyani Shivani 1001995271
+    Usha Chandana Reddy Parne 1001964976 
+    Pranava Avuthu 1002037533
+    Hariharan Prakash 1001852001 
+    Ashwanthika Umashankar 1001854976 */ -->
+    
+    <!-- /* HTML FOR login DASHBOARD */-->
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function redirect(){
+
+      var email = document.myform.email.value;  
+      if (email ==  "ash@building.manager.com") 
+      {location.href="../building_manager/building_manager_dashboard.html"}
+      else if (email ==  "ash@resident.com") 
+      {location.href="../resident_dashboard/resident_dashboard.html"}
+      else if (email ==  "ash@security.manager.com") 
+      {location.href="../security_manager/security_manager_dashboard.html"}
+      else if (email ==  "ash@garden.manager.com") 
+      {location.href="../garden_manager/Garden_timings.html"}
+      else if (email ==  "ash@visitor.com") 
+      {location.href="../visitor managing/visitor_dashboard.html"}
+      else if (email ==  "ash@pool.manager.com") 
+      {location.href="../pool_manager/Pool_Timings.html"}
+      else { alert("Not found !  ")}
+
+    }
+  </script>
+
+<title>Terrazas de Guacuco</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="header_footer_sidebar.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <section>
+    <div class="header">
+      <li class="navbar_top_align"><a href="services.html">Services</a></li>
+      <li class="navbar_top_align"><a href="contact-us.html">Contact</a></li>
+      <li class="navbar_top_align"><a href="about-us.html">About</a></li>
+      <li class="navbar_top_align"><a href="home.html">Home</a></li>
+      <li class="navbar_left_align"><a>Terrazas De Guacuco</a></li>
+    </div>
+</section>
+
+
+  
+    <div class="footer">
+        <div class="contain">       
+            <div class="col">
+              <h2>Site Info</h2>
+              <ul>
+                <li>Media</li>
+                <li> Events</li>
+                <li>Deals</li>
+              </ul>
+            </div>
+            
+            <div class="col">
+              <h2>More TO-DO</h2>
+              <ul>
+                <li>Partner with us</li>
+                <li>Terms and Conditions</li>
+                <li>Cookies and policies</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h2>Contact</h2>
+              <ul>
+                <li>+91 9051 XXXXXX</li>
+                <li>033 2464 XXXX</li>
+                <li>abc@gmail.com</li>
+              </ul>
+            </div>
+            <div class="col address">
+              <h2>Address </h2>
+              <ul>
+                <li>Sky Towers, Service Road, Kolkata</li>
+            </ul>
+            </div>
+          <div class="clearfix"></div>
+          </div>
+          </div>
+          </footer>
+          <div class="main">
+            <form name="myform">
+              <div class="containers">
+                <h1>LOGIN</h1>
+                <hr>
+            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+
+                <input type="button"class="registerbtn"  value="LOGIN" onclick="redirect();" />
+
+                <!-- <button type="submit" class="registerbtn">Login</button> -->
+              
+              <hr>
+              <p>Forgot password? <a href="forgot_password.html">Forgot Password</a>.</p>
+                <br/>
+                <p>Dont have an account? <a href="register.html">Register new user</a>.</p>
+              </div>
+            </form>
+          </div>
+</div>
+</div>
+</body>
+</html>

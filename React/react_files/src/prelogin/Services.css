@@ -1,0 +1,79 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS for Services Page and Media queires for responsiveness */
+/*Used Colors-white*/
+
+.services-grid-container{
+    display:grid;
+    gap:10vw;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+  }
+  .services-grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    height: 20vh;
+    width: 30vw;
+  }
+  .main_ser{
+    left:10vw;
+    top:10vh;
+    height: 35vh;
+    width: 70vw;
+    position:absolute;
+  }
+  .main_ser p{
+    font-size: 1.4vh;
+  }
+.main_ser{
+  top:10vh;
+  height: 35vh;
+  position:absolute;
+}
+.main_ser span{
+  font-size: 1.4vh;
+}
+@media screen and (max-width: 800px) {
+  .main_ser p {
+    word-break: break-all;
+    white-space: normal;
+    font-size:0.8vh;
+}
+.main_ser span{
+  font-size: 0.8vh;
+}
+}
+@media screen and (max-width: 600px) {
+  .main_ser{
+    top:10vh;
+    height: 35vh;
+    position:absolute;
+  }
+}
+@media screen and (max-width: 400px) {
+  .services-grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1vh;
+    height: 10vh;
+    width: 30vw;
+  }
+}
+.service-imgs{
+height:70%;
+width:40%;
+}
+.main_ser h2{
+  font-size:2vw;
+}
+@media screen and (max-width: 800px) {
+  .service-imgs{
+    height:40%;
+width:30%;
+  }
+}

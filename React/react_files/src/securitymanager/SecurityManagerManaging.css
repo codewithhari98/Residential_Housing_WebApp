@@ -1,0 +1,108 @@
+ /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ 
+
+
+/* CSS FOR managing visitor */
+/* Used Colors- black,white */
+
+body {
+  font-family: "Lato", sans-serif;
+
+}
+
+.contents{
+  display: flex;
+  justify-content: center;
+  padding:2.5rem 2.5rem 0 3.5rem;
+  flex-grow: 1;
+  height: 100%;
+  flex-direction:row;
+ position: relative;
+}
+.centered {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  background-color: white; 
+  border: none;
+  color: #132214;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.part1{
+  height: 75%;
+  width: 45%;
+  position: relative;
+  color: white;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 10px 10px 5px 12px rgb(216, 217, 218);
+  background-color: #132214;
+  display:block;
+}
+.part2{
+  
+  position: relative;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #ffffff;
+  display:none;
+}
+.button5 {border-radius: 0%;}
+.centered div {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 3vh;
+  text-decoration: none;
+  font-size:1.5vh;
+  position:relative;
+  }
+.centered div .icon
+  {
+    position: absolute;
+  }
+.centered div .text{
+text-decoration: none;
+font-size:1.5vw;
+position:relative;
+}
+
+/* .sidebar .icon
+
+/*Used background-color :black(#555);*/
+.centered div:hover:not(.active) {
+  background-color: #6b6a6a;
+  color: white; 
+  font-size: 1.5vw; 
+  }
+
+.centered div .text:hover:not(.active) {
+  background-color: #faf8f8;
+  color: white; 
+  font-size: 1.5vw; 
+  }
+
+
+
+@media screen and (max-width: 900px) {
+  .centered div .text{
+    display:none;
+    }  }

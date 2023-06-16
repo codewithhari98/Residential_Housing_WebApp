@@ -1,0 +1,169 @@
+<!-- /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ -->
+
+<!-- /* HTML FOR READ VISITOR */-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="header_footer_sidebar.css">
+      <link rel="stylesheet" href="Read_visitor.css">
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <section>
+      <div class="header">
+              <li class="navbar_top_align"><a href="services.html">Services</a></li>
+              <li class="navbar_top_align"><a href="contact-us.html">Contact</a></li>
+              <li class="navbar_top_align"><a href="about-us.html">About</a></li>
+              <li class="navbar_top_align"><a href="home.html">Home</a></li>
+              <li class="navbar_left_align"><a>Terrazas De Guacuco</a></li>
+      </div>
+      <div class="sidebar">
+              <a class="active" href="building_manager_dashboard.html">Dashboard</a>
+              <a href="manager_chat.html">Chat</a>
+              <a style="position:absolute; top:80%; transform: translateY(-50%)" href="manager_profilesettings.html">Profile Settings</a>
+              <a style="position:absolute; top:90%; transform: translateY(-50%)" href="login.html">Logout</a>
+      </div>
+  </section>
+  
+  <!-- Code for footer -->
+<div class="footer">
+  <div class="contain">       
+    <div class="col">
+      <h2>Site Info</h2>
+        <ul>
+          <li>Media</li>
+          <li> Events</li>
+          <li>Deals</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h2>More TO-DO</h2>
+      <ul>
+          <li>Partner with us</li>
+          <li>Terms and Conditions</li>
+          <li>Cookies and policies</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Contact</h2>
+      <ul>
+          <li>+91 9051 XXXXXX</li>
+          <li>033 2464 XXXX</li>
+          <li>abc@gmail.com</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Address </h2>
+      <ul>
+          <li>Sky Towers, Service Road, Kolkata</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- Code for read visitor -->
+
+
+<div class="read">
+  <h2 style="font-size:1.2vw;">Visitors List</h2>
+  <p style="font-size:1.2vw;">Search Visitors by Name:</p>  
+  <input style="font-size:1.2vw;" class="form-control" id="myInput" onkeyup="myFunction()" type="text" placeholder="Search..">
+  <br>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>DL NUmber</th>
+        <th>Car Plate Number</th>
+      </tr>
+    </thead>
+      <tr>
+        <td>John Mayers</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17600550</td>
+        <td>SDB-7428</td>
+      </tr>
+      <tr>
+        <td>Jimmy</td>
+        <td>joe@gmail.com</td>
+        <td>5127412458</td>
+        <td>17602250</td>
+        <td>SDB-7528</td>
+      </tr>
+      <tr>
+        <td>Tommy</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17610550</td>
+        <td>SDB-6428</td>
+      </tr>
+      <tr>
+        <td>Harsh</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17200550</td>
+        <td>SDB-7418</td>
+      </tr>
+      <tr>
+        <td>Jennifer</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17600550</td>
+        <td>SDB-7428</td>
+      </tr>
+    
+      <tr>
+        <td>Valeria</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17600550</td>
+        <td>SDB-7428</td>
+      </tr>
+    
+      <tr>
+        <td>Sandra</td>
+        <td>John@gmail.com</td>
+        <td>5127412458</td>
+        <td>17600550</td>
+        <td>SDB-7428</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+      <!-- <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[0];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  tr[i].style.display = "";
+                } else {
+                  tr[i].style.display = "none";
+                }
+              }       
+            }
+          }
+      </script> -->
+    </body>
+    </html>  

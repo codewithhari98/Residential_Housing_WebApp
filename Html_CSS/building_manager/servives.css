@@ -1,0 +1,57 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS for Services Page and Media queires for responsiveness */
+/*Used Colors-white*/
+
+.grid-container{
+    display:grid;
+    gap:20px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.2vh;
+    height: 20vh;
+    width: 30vw;
+  }
+  .main{
+    left:20vw;
+    top:10vh;
+    height: 35vh;
+    position:absolute;
+  }
+  @media screen and (max-width: 400px) {
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1vh;
+    height: 10vh;
+    width: 30vw;
+  }
+}
+.main{
+  left:20vw;
+  top:10vh;
+  height: 35vh;
+  position:absolute;
+}
+@media screen and (max-width: 600px) {
+  .main p{
+    font-size: 0.8vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main{
+    left:25vw;
+    top:10vh;
+    height: 35vh;
+    position:absolute;
+  }
+}

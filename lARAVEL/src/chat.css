@@ -1,0 +1,43 @@
+/* body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  } */
+
+  .msgcntr {
+ 
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  .msgcntr div {
+    background-color: #CCC;
+    padding: 5px;
+  }
+
+  .msgcntr div:nth-child(2n) {
+    background-color: #FFF;
+  }
+
+  .Chatform {
+    position: absolute;
+    left: 10px;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 40%;
+    display: flex;
+  }
+
+  .message-input {
+    flex-grow: 1;
+  }
+  .Chatform  .ip{
+    width : 100%
+  }
+  form{
+    height: 10vh;
+    right: 20px;
+  }

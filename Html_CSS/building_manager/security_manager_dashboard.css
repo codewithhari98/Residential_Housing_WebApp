@@ -1,0 +1,25 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS FOR SECURITY MANAGER DASHBOARD */
+body {
+    font-family: "Lato", sans-serif;
+      }
+        
+.grid-container{
+    display:grid;
+    gap:30px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    padding:15vh 0px 0px 5vw;
+
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.5vw;
+    
+}

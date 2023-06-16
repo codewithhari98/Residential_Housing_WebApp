@@ -1,0 +1,290 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+body {
+  font-family: "Lato", sans-serif;
+  width:100%;height:100%;margin:0;padding:0;
+}
+* {
+  box-sizing: border-box;
+}
+/* CSS AND MEDIA QUERIES FOR HEADER */
+/*Used background color :black( #1b3a22);*/
+
+/* CSS AND MEDIA QUERIES FOR SIDEBAR */
+/*Used background color :white( #f1f1f1);*/
+
+/*Layout for page*/
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin : 0px;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.content{
+  display: flex;
+  /* justify-content: center; */
+  padding:2.5rem 2.5rem 0 3.5rem;
+  flex-grow: 1;
+  height: 100%;
+  flex-direction:row;
+ position: relative;
+}
+
+
+/*header*/
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  /* align-items: center; */
+  background-color: #1b3a22;
+  /* height:8vh; */
+  padding:0.4rem 1.5rem;
+}
+nav .logo{
+  font-weight: 700;
+  font-size: 2vh;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display:flex;
+  gap:2.5rem;
+  font-size: 2vh;
+}
+nav ul li{
+  color: white;
+}
+nav a{
+  text-decoration:none;
+  color: white;
+}
+nav #toggle,
+nav label{
+  display: none;
+}
+@media(max-width:40.625em){
+  nav .menu{
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+  }
+  nav ul{
+      flex-direction: column;
+      align-items: center;
+      padding: 0.4rem 0;
+      font-size: 1.4vh;
+      gap:0.5rem;
+  }
+  nav label{
+      display: inline-flex;
+      color:white;
+      cursor:pointer;
+  }
+  nav #toggle:checked ~ .menu{
+      height: 100%;
+  }
+}
+/* 
+.content div {
+  display: block;
+  color: black;
+  padding: 5vh;
+  text-decoration: none;
+  font-size:1.5vh;
+  position:relative;
+  } */
+
+
+  /*Sidebar*/
+.sidebar {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  height: 150%;
+  width:15vw;
+  margin: 0;
+  padding: 0;
+  flex-grow:1;
+  font-size: 20px;
+  line-height: 20px;
+  flex-wrap:wrap;
+  color: #ffe8c3;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border: 0px solid #f1f1f1;
+}
+
+.sidebar div {
+  display: block;
+  color: black;
+  padding: 5vh;
+  text-decoration: none;
+  font-size:1.5vh;
+  position:relative;
+  }
+.sidebar div .icon
+  {
+    position: absolute;
+    /* float:right; */
+    color:black;
+  }
+.sidebar div .text{
+text-decoration: none;
+font-size:1.2vw;
+position:relative;
+color:black;
+/* float:left; */
+}
+
+/* .sidebar .icon
+
+/*Used background-color :black(#555);*/
+.sidebar div:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+@media screen and (max-width: 980px) {
+.sidebar {
+  left:0px;
+  width:20vw;
+  font-size: 1.8vw;
+  height:150%;
+  flex-wrap:wrap;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar div .text{
+    display:none;
+    }
+  }
+    
+
+
+/* CSS AND MEDIA QUERIES FOR FOOTER  */
+
+/*Used background-color :black(#1b3a22);*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 2vh;
+  /* flex-wrap:wrap; */
+  color: #ffe8c3;
+  overflow: hidden;
+  background-color: #1b3a22;
+  /* border: 10px solid #f1f1f1; */
+}
+.footer .col {
+width: 8vw;
+height: auto;
+float: left;
+left:0px;
+box-sizing: content-box;
+padding: 20px 0px 0px 100px;
+}
+  .footer .col h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2VW;
+  line-height: 17px;
+  padding: 0px 0;
+  color: white;
+  text-transform: uppercase;
+  }
+  .footer .col ul {
+  list-style-type: none;
+  padding: 0;
+  overflow-wrap: break-word;
+  }
+  .footer .col ul li {
+  color: white;
+  font-size: 12px;
+  padding: 5px 0px;
+  }
+  .address ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+  overflow-wrap: break-word;
+  }
+  /*Used background-color :grey;*/
+  .footer .col ul li:hover {
+  cursor: pointer;
+  color: lightgray;
+  font-weight: bold;
+  }
+  .container {
+    display:flex;
+    flex-wrap:wrap; /* this */
+    gap:10px;
+  }
+  /*Used background-color :red;*/
+  .container > div {
+    height:100px;
+    flex:max(400px, 100%/4 + 0.1%); /* and this */
+    background:red;
+  }
+
+/*Used background-color :green(#1b3a22);*/
+@media screen and (max-width: 980px) {
+/* .footer {
+  position: absolute;
+left: 0;
+height : auto;
+top: 80vh;
+background: #1b3a22;
+width: 100%;
+color: #fff;
+} */
+.footer{display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+font-size: 20px;
+line-height: 2vh;
+/* flex-wrap:wrap; */
+color: #ffe8c3;
+overflow: hidden;
+background-color: #1b3a22;
+}
+}
+@media only screen and (max-width: 950px) {
+.footer {
+  right:0px;
+  bottom: 0px;
+  
+}
+}
+@media only screen and (max-width: 950px) {
+.footer .col {
+padding: 10px 0px 0px 10px;
+width: 18vw;
+}
+.footer .col h2 {
+font-size: 1.8VW;
+}
+.footer .col ul li {
+font-size: 1.8vw;
+}
+}
+
+

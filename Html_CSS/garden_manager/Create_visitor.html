@@ -1,0 +1,87 @@
+<!-- /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ -->
+
+<!-- /* HTML FOR CREATE VISITOR  */-->
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <link rel="stylesheet" href="header_footer_sidebar.css">
+  <link rel="stylesheet" href="Create_visitor.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+     
+<body>
+    <!-- Header -->
+    <section>
+      <div class="header">
+              <li class="navbar_top_align"><a href="services.html">Services</a></li>
+              <li class="navbar_top_align"><a href="contact-us.html">Contact</a></li>
+              <li class="navbar_top_align"><a href="about-us.html">About</a></li>
+              <li class="navbar_top_align"><a href="home.html">Home</a></li>
+              <li class="navbar_left_align"><a>Terrazas De Guacuco</a></li>
+      </div>
+      <div class="sidebar">
+              <a class="active" href="Garden_timings.html">Dashboard</a>
+              <a href="manager_chat.html">Chat</a>
+              <a style="position:absolute; top:80%; transform: translateY(-50%)" href="manager_profilesettings.html">Profile Settings</a>
+              <a style="position:absolute; top:90%; transform: translateY(-50%)" href="login.html">Logout</a>
+      </div>
+  </section>
+
+  <!-- Code for footer -->
+<div class="footer">
+  <div class="contain">       
+    <div class="col">
+      <h2>Site Info</h2>
+        <ul>
+          <li>Media</li>
+          <li> Events</li>
+          <li>Deals</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h2>More TO-DO</h2>
+      <ul>
+          <li>Partner with us</li>
+          <li>Terms and Conditions</li>
+          <li>Cookies and policies</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Contact</h2>
+      <ul>
+          <li>+91 9051 XXXXXX</li>
+          <li>033 2464 XXXX</li>
+          <li>abc@gmail.com</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Address </h2>
+      <ul>
+          <li>Sky Towers, Service Road, Kolkata</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- code for craete visitor  -->
+<div class="main">
+  <div class="product_form">
+  <form class="product_form">
+  <input type="email"id="Visitor-EmailID"class="input_box form_input"placeholder="Visitor-EmailID"required minlength="10" maxlength="18" size="10"/>
+  <input type="text"id="Visitor Name"class="input_box form_input"placeholder="Visitor Name"/>
+  <input type="number"id="Manager contact"class="input_box form_input"placeholder="Enter contact number"required maxlength="10"/>
+  <input type="number"id="DL_number"class="input_box form_input"placeholder="DL_number"required maxlength="12"/>
+  <input type="password"id="Manager Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="input_box form_input"placeholder="Manager Password"required minlength="8"/>
+  <input type="text"id="Car_plate_number"class="input_box form_input"placeholder="Car_plate_number"required/>
+  <button onclick="alert('The record has been Updated')">Create Visitor Record</button>            
+  </div>
+  </div>
+
+</body>
+</html>

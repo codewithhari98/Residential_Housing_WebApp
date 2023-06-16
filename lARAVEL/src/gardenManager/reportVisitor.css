@@ -1,0 +1,75 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* REPORT GENERATION FOR MANAGER CSS and Media queires for responsiveness */
+
+#hide_display{
+    display:none;
+    top:20vh;
+    height:fit-content;
+    position:relative;
+  }
+              
+  .grid-containers{
+    display:grid;
+    gap:30px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  
+  }
+  @media screen and (max-width: 980px) {
+    .grid-containers{  
+      display:grid;
+      gap:30px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+ 
+  }
+  
+
+  .grid-containers > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.5vw;
+    
+    
+  } 
+  @media screen and (max-width: 980px) {
+    .grid-containers > div{  
+      background-color: rgba(255, 255, 255, 0.8);
+      margin-top: 50px;
+      margin-left: 53px;
+    text-align: center;
+    font-size: 1.9vw;
+    position: relative;
+  }
+}
+  
+  .report{
+      top:5vw;
+      height: 35vw;
+      position:absolute;
+      font-size:1.5vh;
+    }
+    @media screen and (max-width: 980px) {
+      .report{
+        font-size: 18px;
+        height: 10vw;
+        position:absolute;
+        font-size:1.5vh;
+      }
+      
+    }
+
+    .content-report{
+      display: flex;
+      /* justify-content: center; */
+      padding:2.5rem 2.5rem 0 0.5rem;
+      flex-grow: 1;
+      height: 100%;
+      flex-direction:row;
+     position: relative;
+    }

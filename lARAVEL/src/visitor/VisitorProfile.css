@@ -1,0 +1,58 @@
+/* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS FOR VISITOR PROFILE PAGE */
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  .visitor{
+left:16vw;
+top:5vw;
+height: 35vw;
+position:absolute;
+}
+@media screen and (max-width: 980px) {
+.visitor{
+left:22vw;
+top:15vw;
+height: 10vw;
+position:absolute;}
+}
+/* .content {
+  justify-content: left;
+} */
+  .grid-container {
+    display:grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0vw;
+    height: 24vh;
+    width: 20vw; }
+
+  @media screen and (max-width: 980px) {
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1vh;
+    height: 50vh;
+    width: 50vw;
+  }
+}
+
+  @media screen and (max-width: 980px){
+    form {
+      display: block;
+      height: 55vh;
+      width: 45vw;
+    }
+  }
+
+  .btn {
+    background-color: #1b3a22;
+    padding: 16px 20px;
+    color: white;
+    margin-bottom:10px;
+  }

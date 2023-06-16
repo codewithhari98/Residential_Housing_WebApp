@@ -1,0 +1,152 @@
+    /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS FOR VISITOR DASHBOARD PAGE */
+    
+    /* style to para class */
+    /* .para {
+        height: 100px;
+        width: 1600px;
+        overflow: auto;
+        line-height: 1.8;
+  
+      } */
+  
+  
+  
+  /* apply property to all class start with i_ */
+  /* [class*="i_"] {
+    float: left;
+    padding: 15px;
+    width:100%; 
+  } */
+  
+  
+  /* .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,  minmax(100px, 1fr));
+        left: -5vw;
+        padding-left: 10vh;
+        position: relative;
+      }
+  
+      .grid-container>div {
+        text-align: center;
+        font-size: 1.2vw;
+      }
+  
+      .grid-container img {
+        padding-left: 5px;
+      }
+      .main{
+  left:16vw;
+  top:5vw;
+  height: 35vw;
+  position:absolute;
+  }
+  @media screen and (max-width: 980px) {
+  .main{
+  left:21vw;
+  top:12vw;
+  height: 10vw;
+  position:absolute;}
+  
+  } */
+
+  
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  /* .containers {
+    height: 50vh;
+    width:50vw;
+    position:relative;
+    background-color: white;
+    font-size: 1.2vh;
+  } */
+  
+  /* Add a blue text color to links */
+  a {
+    text-decoration: none;
+  }
+  .Dashboardgrid-container {
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(auto-fit,  minmax(100px, 1fr));
+    width: 79vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 2vh;
+    /* height: 24vh;
+    width: 50vw; */
+  }
+  .div1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.0vw;
+  }
+  .div2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.0vw;
+    /* height: 20vw; */
+    width: 25vw;
+  }
+  @media screen and (max-width: 980px) {
+  .Dashboardgrid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1vh;
+    height: 50vh;
+    width: 50vw;
+  }
+}
+
+ul {
+  list-style: none;
+}
+  .get_say_social-icn {
+    display: flex;
+    position:relative;
+    float:left;
+  }
+  @media screen and (max-width: 980px){
+  .get_say_social-icn {
+    display: flex;
+    position: relative;
+    float:left;
+    top:1vh;
+  }
+}
+  .get_say_social-icn a {
+    font-size: 2vh;
+    color: #000000;
+    padding: 0 0 0 5vw;
+  }
+  @media screen and (max-width: 980px){
+    form {
+      display: block;
+      height: 55vh;
+      width: 45vw;
+    }
+  }
+  .imges{
+    width: 50%;
+    height: 70%;
+  }
+  @media screen and (max-width: 980px){
+  .imges{
+    width: 40%;
+    height: 40%;
+  }
+}

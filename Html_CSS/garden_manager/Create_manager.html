@@ -1,0 +1,101 @@
+<!-- /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ -->
+
+<!-- /* HTML FOR CREATE MANAGER  */-->
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <link rel="stylesheet" href="header_footer_sidebar.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Create_manager.css">
+</head>
+     
+<body>
+    <!-- Header -->
+    <section>
+      <div class="header">
+              <li class="navbar_top_align"><a href="services.html">Services</a></li>
+              <li class="navbar_top_align"><a href="contact-us.html">Contact</a></li>
+              <li class="navbar_top_align"><a href="about-us.html">About</a></li>
+              <li class="navbar_top_align"><a href="home.html">Home</a></li>
+              <li class="navbar_left_align"><a>Terrazas De Guacuco</a></li>
+      </div>
+      <div class="sidebar">
+              <a class="active" href="Garden_timings.html">Dashboard</a>
+              <a href="manager_chat.html">Chat</a>
+              <a style="position:absolute; top:80%; transform: translateY(-50%)" href="manager_profilesettings.html">Profile Settings</a>
+              <a style="position:absolute; top:90%; transform: translateY(-50%)" href="login.html">Logout</a>
+      </div>
+  </section>
+
+<!-- Code for creating manager records  -->
+<div class="main">
+<section>
+<div class="product_form">
+<form class="product_form">
+<input type="text"id="Manager-ID"class="input_box form_input"placeholder="Manager-ID"required minlength="5" maxlength="5" size="10"/>
+<input type="text"id="Manager Name"class="input_box form_input"placeholder="Manager Name"/>
+<input type="number"id="Manager contact"class="input_box form_input"placeholder="Enter contact number"required maxlength="10"/>
+<select  name = "dropdown" placeholder="product name">
+    <option value="" disabled selected>Choose Manager Type</option>
+    <option value = "Pool Manager">Pool Manager</option>
+    <option value = "Garden Manager">Garden Manager</option>
+    <option value = "Security Manager">Security Manager</option>
+</select>
+<input type="number"id="Manager SSN"class="input_box form_input"placeholder="Manager SSN"required maxlength="9"/>
+<input type="password"id="Manager Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="input_box form_input"placeholder="Manager Password"required minlength="8"/>
+<input type="text" placeholder="Date of Joining"onfocus="(this.type='date')"id="Manager DOJ"class="input_box form_input"required/>
+<input type="text" placeholder="Date of Birth"onfocus="(this.type='date')"id="Manager DOB"class="input_box form_input"required/>
+<input type="number"id="Manager Salary"class="input_box form_input"placeholder="Manager Salary"required/>
+<input type="text" placeholder="Start Time"onfocus="(this.type='time')"id="Manager Start Time"class="input_box form_input"required/>             
+<input type="text" placeholder="End Time"onfocus="(this.type='time')"id="Manager End Time"class="input_box form_input"required/>  
+<button  onclick="alert('The record has been created')">Create Manager Record</button>
+</div>
+</section>
+
+  <!-- Code for footer -->
+  <div class="footer">
+    <div class="contain">       
+      <div class="col">
+        <h2>Site Info</h2>
+          <ul>
+            <li>Media</li>
+            <li> Events</li>
+            <li>Deals</li>
+          </ul>
+      </div>
+      <div class="col">
+        <h2>More TO-DO</h2>
+        <ul>
+            <li>Partner with us</li>
+            <li>Terms and Conditions</li>
+            <li>Cookies and policies</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Contact</h2>
+        <ul>
+            <li>+91 9051 XXXXXX</li>
+            <li>033 2464 XXXX</li>
+            <li>abc@gmail.com</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Address </h2>
+        <ul>
+            <li>Sky Towers, Service Road, Kolkata</li>
+        </ul>
+      </div>
+  
+    </div>
+  </div>
+  
+
+</body>
+</html>
+

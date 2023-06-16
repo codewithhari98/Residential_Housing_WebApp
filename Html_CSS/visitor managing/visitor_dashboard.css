@@ -1,0 +1,61 @@
+    /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */
+
+/* CSS FOR VISITOR DASHBOARD PAGE */
+    
+    /* style to para class */
+    .para {
+        height: 100px;
+        width: 1600px;
+        overflow: auto;
+        line-height: 1.8;
+  
+      }
+  
+  
+  
+  /* apply property to all class start with i_ */
+  [class*="i_"] {
+    float: left;
+    padding: 15px;
+    width:100%; 
+  }
+  
+  
+  .grid-container {
+        display: grid;
+        /* gap: 30px; */
+        grid-template-columns: repeat(auto-fit,  minmax(100px, 1fr));
+        left: -5vw;
+        padding-left: 10vh;
+        position: relative;
+      }
+  
+      .grid-container>div {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        text-align: center;
+        font-size: 1.2vw;
+      }
+  
+      .grid-container img {
+        padding-left: 5px;
+      }
+      .main{
+  left:16vw;
+  top:5vw;
+  height: 35vw;
+  position:absolute;
+  }
+  @media screen and (max-width: 980px) {
+  .main{
+  left:21vw;
+  top:12vw;
+  height: 10vw;
+  position:absolute;}
+  
+  }
+    

@@ -1,0 +1,20 @@
+ /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ 
+
+/* Delete watchman CSS and Media queires for responsiveness */
+.Delete {
+    margin-top: 20vh;
+    margin-left: 20vw;
+  }
+  @media screen and (max-width: 980px) {
+    .Delete{
+      top: 20vh;
+      left: 10vw;
+    font: 30vw;      }
+
+    
+  }

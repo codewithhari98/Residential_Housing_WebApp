@@ -1,0 +1,99 @@
+<!-- /* Team-5 Members
+Goyani Shivani 1001995271
+Usha Chandana Reddy Parne 1001964976 
+Pranava Avuthu 1002037533
+Hariharan Prakash 1001852001 
+Ashwanthika Umashankar 1001854976 */ -->
+
+<!-- /* HTML FOR CREATE RESIDENT  */-->
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <link rel="stylesheet" href="header_footer_sidebar.css">
+  <link rel="stylesheet" href="Create_resident.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <section>
+      <div class="header">
+              <li class="navbar_top_align"><a href="services.html">Services</a></li>
+              <li class="navbar_top_align"><a href="contact-us.html">Contact</a></li>
+              <li class="navbar_top_align"><a href="about-us.html">About</a></li>
+              <li class="navbar_top_align"><a href="home.html">Home</a></li>
+              <li class="navbar_left_align"><a>Terrazas De Guacuco</a></li>
+      </div>
+      <div class="sidebar">
+              <a class="active" href="Pool_Timings.html">Dashboard</a>
+              <a href="manager_chat.html">Chat</a>
+              <a style="position:absolute; top:80%; transform: translateY(-50%)" href="manager_profilesettings.html">Profile Settings</a>
+              <a style="position:absolute; top:90%; transform: translateY(-50%)" href="login.html">Logout</a>
+      </div>
+  </section>
+<!-- code for creating resident      -->
+
+<div class="main"> 
+<section>
+<div class="product_form">
+<form class="product_form">
+    <input type="text" id="Resident Name" class="input_box form_input" placeholder="Resident Name" />
+    <input type="text" id="Resident Email" class="input_box form_input" placeholder="Resident Email" />
+    <input type="number" id="Resident contact" class="input_box form_input" placeholder="Enter contact number" required maxlength="10"/>
+    <select name = "dropdown" placeholder="Resident Type">
+      <option value="" disabled selected>Choose Resident Type</option>
+      <option value = "Pool Manager">Owner</option>
+      <option value = "Garden Manager">Short term lease holder</option>
+      <option value = "Security Manager">Long term lease holder</option>
+    </select>
+    <input  type="number"id="Resident SSN" class="input_box form_input" placeholder="Resident SSN" required maxlength="9" />
+    <input type="password"id="Resident Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="input_box form_input"placeholder="Resident Password"required minlength="8"/>
+    <input type="text" placeholder="Date of Birth"onfocus="(this.type='date')"id="Resident DOB"class="input_box form_input"required/>
+    <input type="text" placeholder="Move In Date"onfocus="(this.type='date')"id="Move In Date"class="input_box form_input"required/>
+    <input type="text" placeholder="Move Out Date"onfocus="(this.type='date')"id="Move Out Date"class="input_box form_input"required/>
+    <button onclick="alert('The record has been Updated')">Create Resident Record</button>
+</div>
+</section>
+</div>
+
+   <!-- Code for footer -->
+<div class="footer">
+  <div class="contain">       
+    <div class="col">
+      <h2>Site Info</h2>
+        <ul>
+          <li>Media</li>
+          <li> Events</li>
+          <li>Deals</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h2>More TO-DO</h2>
+      <ul>
+          <li>Partner with us</li>
+          <li>Terms and Conditions</li>
+          <li>Cookies and policies</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Contact</h2>
+      <ul>
+          <li>+91 9051 XXXXXX</li>
+          <li>033 2464 XXXX</li>
+          <li>abc@gmail.com</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Address </h2>
+      <ul>
+          <li>Sky Towers, Service Road, Kolkata</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+  
+</body>
+</html>
+
