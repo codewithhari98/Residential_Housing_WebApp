@@ -1,1 +1,1 @@
-"# Residential_Housing_WebApp" 
+This App was Built for Web Data Management course at my University. This is a Full Stack web application with phase by phase development. First Phase was HTML_CSS, Second was React, Third was PHP and Final phase was Laravel. The React website is hosted on cloud. 
